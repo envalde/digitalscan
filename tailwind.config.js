@@ -1,7 +1,13 @@
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
-  theme: {
+  theme: { fontFamily: {
+    'sans': ['Inter'],
+    'serif': ['Inter'],
+    'mono': ['Inter'],
+    'display': ['Inter'],
+    'body': ['Inter'],
+   },
     extend: {},
   },
   variants: {
